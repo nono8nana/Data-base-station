@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园建筑数据基座</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>校园建筑数据基座</h1>
+        <p>鼠标悬停在建筑物上查看详细数据</p>
+    </header>
+    
+    <main>
+        <div class="map-container">
+            <div class="map" id="map">
+                <!-- 地图图片 -->
+                <img src="NanoBanana-2026-01-27.png" alt="校园地图" class="campus-map">
+                
+                <!-- 建筑热区容器 -->
+                <div class="hotspots" id="hotspots">
+                    <!-- 热区将通过JavaScript动态生成 -->
+                </div>
+            </div>
+            
+            <!-- 数据展示面板 -->
+            <div class="data-panel" id="dataPanel">
+                <div class="data-content">
+                    <h3 id="buildingName">建筑物名称</h3>
+                    <div class="data-item">
+                        <span class="label">类型：</span>
+                        <span id="buildingType">办公及实验楼</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">总建筑面积：</span>
+                        <span id="buildingArea">0 m²</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">2025年用电量：</span>
+                        <span id="electricity">0 KWh</span>
+                    </div>
+                    <div class="data-item">
+                        <span class="label">2025年用水量：</span>
+                        <span id="water">0 ton</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 SIGS校园能源消耗数据基座</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
