@@ -3,36 +3,36 @@ const buildings = {
     "信息楼": {
         "type": "办公及实验楼",
         "area": "52,800 m²",
-        "electricity": "6,543,429 KWh",
-        "water": "1,466,396 ton",
+        "electricity": "6,508,741 KWh",
+        "water": "14,185 ton",
         "coordinates": { "top": "42.7198%", "left": "9.9311%", "width": "13%", "height": "13%" }
     },
     "荷花公寓R1-R5(5 buildings)及荷花食堂M、N": {
         "type": "荷花公寓R1-R5(5 buildings)及荷花食堂M、N",
-        "area": "35,000 m²,1,580 and 5,500 m²",
-        "electricity": "统计中",
-        "water": "统计中",
+        "area": "16,000 m²,1,580 and 5,500 m²",
+        "electricity": "9,522,501 KWh",
+        "water": "230,471 ton",
         "coordinates": { "top": "9.65511%", "left": "3.48801%", "width": "12%", "height": "12%" }
     },
     "老园区A-Q(11 buildings)办公室及实验室": {
         "type": "办公室及实验室",
         "area": "74,760 m²",
-        "electricity": "9,424,337 KWh",
-        "water": "统计中",
+        "electricity": "9,522,501 KWh",
+        "water": "230,471 ton",
         "coordinates": { "top": "14.8189%", "left": "13.6677%", "width": "20%", "height": "20%" }
     },
     "海洋楼与能源楼办公及实验室": {
         "type": "办公及实验室",
-        "area": "18900, 16,900 m²",
-        "electricity": "12,500,190 KWh",
-        "water": "统计中",
+        "area": "50,296, 15,653 m²",
+        "electricity": "12,573,361 KWh",
+        "water": "20,609 ton",
         "coordinates": { "top": "22.3793%", "left": "40.6737%", "width": "15%", "height": "15%" }
     },
     "国际一期A1-D1(4 buildings)办公、宿舍": {
         "type": "办公、宿舍",
-        "area": "143,200 m²",
-        "electricity": "12,785,090 KWh",
-        "water": "91,253 ton",
+        "area": "125,515 m²",
+        "electricity": "12,676,587 KWh",
+        "water": "93,778 ton",
         "coordinates": { "top": "55.7542%", "left": "79.8418%", "width": "15%", "height": "15%" }
     }
 };
@@ -155,4 +155,5 @@ window.addEventListener('resize', function() {
 });
 
 // 页面加载完成后初始化
+
 document.addEventListener('DOMContentLoaded', init);
